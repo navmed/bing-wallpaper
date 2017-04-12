@@ -11,7 +11,7 @@ import win32con
 import win32gui
 import json
 import re
-from urllib.request import urlopen, urlretrieve
+from urllib import urlopen, urlretrieve
 from os import path, system, remove, listdir
 from datetime import datetime
 from PIL import Image
